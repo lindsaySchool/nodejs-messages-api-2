@@ -10,7 +10,7 @@ app.use(cors());
 
 // connect to mongodb
 //mongoose.connect("mongodb://127.0.0.1:27017/messagesApi");
-mongoose.connect("process.env.MONGODB");
+mongoose.connect(process.env.MONGODB);
 //console log .env.MONGODB
 console.log(process.env.MONGODB);
 
